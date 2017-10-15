@@ -18,7 +18,7 @@ Function highlight, dta
      ;   endelse
       ;  endelse
 print, 'curr_va = ', highpoint[i1,i0]
-       result[highpoint[i1,i0],i1,i0] = 32760.0
+      ; result[highpoint[i1,i0],i1,i0] = 32760.0
      endfor
      smooth_colume[*,i0] = smooth(highpoint[*,i0],10)
   endfor
